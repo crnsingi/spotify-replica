@@ -55,6 +55,10 @@ const PlayerContextProvider = (props) => {
         }
     }
 
+    const seekSong = async (e) => {
+        
+    }
+
     useEffect(() => {
         setTimeout(() => {
 
@@ -83,7 +87,8 @@ const PlayerContextProvider = (props) => {
         time,setTime,
         play,pause,
         playWithId,
-        previous,next
+        previous,next,
+        seekSong
     }
 
 return (
